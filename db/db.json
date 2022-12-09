@@ -1,52 +1,66 @@
 {
-  "toys": [
+  "zoos": [
     {
       "id": 1,
-      "name": "Woody",
-      "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-      "likes": 8
+      "name": "San Diego Zoo",
+      "habitat": "Grassland",
+      "description": "The San Diego Zoo Safari Park, an 1,800-acre wildlife park, is home to more than 3,600 animals representing over 300 species. Located in Escondido, California, the Safari Park welcomes more than 1.5 million guests each year to see animals in herds of mixed species, in expansive savanna habitats.",
+      "image": "https://www.sandiego.org/-/media/597a48550e6d456abc93a6f8b8fd2a4c.jpg",
+      "animals": [
+        {
+          "name": "Winnie",
+          "details": "the pooh bear",
+          "image": "https://upload.wikimedia.org/wikipedia/en/1/10/Winniethepooh.png"
+        }
+      ]
     },
     {
       "id": 2,
-      "name": "Buzz Lightyear",
-      "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
-      "likes": 14
+      "name": "Columbus Zoo",
+      "habitat": "Plains",
+      "description": "The Columbus Zoo and Aquarium is dedicated to being a responsible and accessible community partner. Through our outreach and engagement programs, we identify and invite diverse and underserved groups in our community to enrich their relationship with nature. These programs educate and empower all people so they may be compelled to love and protect the future of wildlife and wild places. Here’s how we seek them out and invite them in.",
+      "image": "https://columbuszoo.org/Media/images/default-source/default-album/reindeer-encounters.jpg?sfvrsn=f918b1a6_0",
+      "animals": [
+        {
+          "name": "Tiger",
+          "details": "super scary",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Walking_tiger_female.jpg"
+        }
+      ]
     },
     {
       "id": 3,
-      "name": "Mr. Potato Head",
-      "image": "https://vignette.wikia.nocookie.net/universe-of-smash-bros-lawl/images/d/d8/Mr-potato-head-toy-story.gif/revision/latest?cb=20151129131217",
-      "likes": 3
+      "name": "Omaha Zoo",
+      "habitat": "Prairie",
+      "description": "Omaha's Henry Doorly Zoo and Aquarium's mission is to inspire, educate and engage people to serve as lifelong stewards for the conservation of animals and their habitats.",
+      "image": "https://assets.speakcdn.com/assets/2140/omahas_zoo_and_aquarium.jpg",
+      "animals": [
+        {
+          "name": "Elephant",
+          "details": "Big boi, long nose",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/6/63/African_elephant_warning_raised_trunk.jpg"
+        }
+      ]
+    }
+  ],
+  "animals": [
+    {
+      "id": 1,
+      "name": "Tiger",
+      "details": "super scary",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Walking_tiger_female.jpg"
     },
     {
-      "id": 4,
-      "name": "Slinky Dog",
-      "image": "https://www.freeiconspng.com/uploads/slinky-png-transparent-1.png",
-      "likes": 4
+      "id": 2,
+      "name": "Winnie",
+      "details": "the pooh bear",
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/10/Winniethepooh.png"
     },
     {
-      "id": 5,
-      "name": "Rex",
-      "image": "http://umich.edu/~chemh215/W11HTML/SSG5/ssg5.2/FRex.png",
-      "likes": 1
-    },
-    {
-      "id": 6,
-      "name": "Bo Peep",
-      "image": "http://4.bp.blogspot.com/_OZHbJ8c71OM/Sog43CMFX2I/AAAAAAAADEs/0AKX0XslD4g/s400/bo.png",
-      "likes": 2
-    },
-    {
-      "id": 7,
-      "name": "Hamm!!!!",
-      "image": "https://cdn140.picsart.com/244090226021212.png?r1024x1024",
-      "likes": 0
-    },
-    {
-      "id": 8,
-      "name": "Little Green Men",
-      "image": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png",
-      "likes": -2
+      "id": 3,
+      "name": "Elephant",
+      "details": "Big boi, long nose",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/63/African_elephant_warning_raised_trunk.jpg"
     }
   ]
 }
