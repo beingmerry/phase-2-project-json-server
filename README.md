@@ -1,5 +1,7 @@
 # JSON Server Template
 
+##
+
 ## Setup
 
 Fork and clone this repo. Then install the dependencies by running:
@@ -10,36 +12,16 @@ npm install
 
 ## Seeding Data
 
-To set up your database, update the `db/seeds.json` file to contain an object
-with a key pointing to an array of data, like this:
+To set up your database, update the `db/seeds.json`
 
-```json
-{
-  "toys": [
-    {
-      "id": 1,
-      "name": "Woody",
-      "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-      "likes": 8
-    },
-    {
-      "id": 2,
-      "name": "Buzz Lightyear",
-      "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
-      "likes": 14
-    }
-  ]
-}
-```
+Run `npm run seed` to copy data from the `db/seeds.json` file to the
+`db/db.json` file.
 
-Then, run `npm run seed` to copy data from the `db/seeds.json` file to the
-`db/db.json` file. `json-server` uses the `db.json` file to create your RESTful
+`json-server` uses the `db.json` file to create your RESTful
 API, so make sure your `db.json` file is always up to date!
 
 Any time you want to reset your database back to your original data, run
-`npm run seed` again. Doing this will overwrite all the data in your `db.json`
-file, so make sure you don't have any data in that file that you don't mind
-losing!
+`npm run seed`  ⚠️ OVERWRITES DATABASE
 
 ## Running the Server Locally
 
@@ -64,11 +46,11 @@ works nicely with Rails, which you'll learn later in the program.
 ### Sign Up for a Render Account
 
 You can sign up for a free account at
-[https://dashboard.render.com/register][Render signup]. We recommend that you
+[https://dashboard.render.com/register][render signup]. We recommend that you
 sign up using GitHub as that will make it a little easier for you to connect
 Render to your GitHub account. The instructions below assume you've done that.
 
-[Render signup]: https://dashboard.render.com/register
+[render signup]: https://dashboard.render.com/register
 
 Once you've completed the signup process, you will be taken to the Render
 dashboard.
